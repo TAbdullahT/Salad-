@@ -1,0 +1,880 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+
+body {
+   line-height: 1.8;
+   color: #898fa1;
+   font-size: 15px;
+   font-family: 'Lato', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: 700;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   color: #11245A;
+}
+
+.title-sm {
+   font-size: 16px;
+   letter-spacing: 1px;
+}
+
+a {
+   font-weight: 700;
+   transition: all 0.4s ease;
+   text-decoration: none;
+}
+
+/* img {
+   width: 100%;
+} */
+
+small {
+   font-size: 12px;
+   letter-spacing: 2px;
+   font-weight: 700;
+   text-transform: uppercase;
+}
+
+section {
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.navbar {
+   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo-text {
+   font-size: 22px;
+   text-transform: uppercase;
+   color: #11245A !important;
+}
+
+.navbar .nav-link {
+   font-size: 12px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+   color: #E93B81;
+}
+
+#home {
+   /* background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(../img/hero_img.jpg); */
+   background: url(../img/backgroudnd11.png);
+
+   /* min-height: 150vh; */
+   background-size: cover;
+   background-position: center;
+   /* background-attachment: fixed; */
+   /* display: flex; */
+   /* align-items: center; */
+}
+
+#home22 {
+   /* background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(../img/hero_img.jpg); */
+   /* background: url(../img/backgroudnd1111.png); */
+   /* background-color: rgb(255, 255, 255); */
+   border-radius: 50px;
+
+   background-color: rgba(255, 255, 255, 0.5);
+   /* padding: 0vh 5vw; */
+   /* min-height: 141vh; */
+   /* min-width: 2100px; */
+   /* min-width: px; */
+   background-size: contain;
+   background-position: center;
+   /* background-attachment: fixed; */
+   /* background-repeat: ; */
+   /* display: flex; */
+   margin: 20px;
+   padding: 20px;
+
+
+
+}
+
+#home222 {
+   /* background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(../img/hero_img.jpg); */
+   /* background: url(../img/backgroudnd1111.png); */
+   /* background-color: rgb(255, 255, 255); */
+   border-radius: 40px;
+
+   background-color: #F5F3F0;
+   /* padding: 0vh 5vw; */
+   /* min-height: 150vh; */
+   /* min-width: 2100px; */
+   /* min-width: px; */
+   background-size: contain;
+   background-position: center;
+   /* background-attachment: fixed; */
+   /* background-repeat: ; */
+   display: flex;
+   /* margin: 50px; */
+   padding: 20px;
+
+
+
+}
+
+nav#menuBar {
+   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+   padding: 23px;
+   /* margin: 0px 1000px; */
+   border-radius: 20px;
+   max-width: 100px;
+
+   background-color: rgba(255, 255, 255, 0.3);
+   /* padding: 0vh 5vw; */
+
+   min-width: 190px;
+
+   /* min-height: 15vh; */
+   background-size: contain;
+   background-position: center;
+}
+
+/* input#homeIMG{
+   height: 5vh;
+} */
+label {
+   color: black;
+   font-size: 15px;
+   display: inline-block;
+   /* margin-right: 10px; */
+   font-weight: bold;
+   cursor: pointer;
+   /* vertical-align: middle; */
+}
+
+/* Container holding the image and the text */
+.containerrr {
+   position: relative;
+   text-align: center;
+   color: rgb(0, 0, 0);
+}
+
+/* Bottom left text */
+
+
+/* Top left text */
+.top-left {
+   font-size: 20px;
+   position: absolute;
+   top: 4px;
+   left: 10px;
+}
+
+.by {
+   font-size: 20px;
+   position: absolute;
+   top: 30px;
+   left: 55px;
+}
+
+/* Top right text */
+.top-right {
+   font-weight: bold;
+   position: absolute;
+   top: 60px;
+   left: 20px;
+}
+
+/* Bottom right text */
+.bottom-right {
+   position: absolute;
+   bottom: 8px;
+   right: 12px;
+}
+
+/* Centered text */
+.centered {
+   font-size: 14px;
+   font-weight: bold;
+
+   position: absolute;
+   top: 145px;
+   right: 5px;
+   transform: rotate(4deg);
+
+
+   /* top: 50%;
+   left: 50%; */
+   /* transform: translate(-50%, -50%); */
+}
+
+.bottom-left {
+   font-size: 20px;
+   font-weight: bold;
+   transform: rotate(-5deg);
+   position: absolute;
+   bottom: 15px;
+   left: 31px;
+}
+
+div#title {
+   padding: 10px 30px 0px 30px;
+   /* background: linear-gradient(rgba(17, 36, 90, 0.8), rgba(17, 36, 90, 0.8)), url(../img/hero_img.jpg); */
+   /* background: url(../img/backgroudnd1111.png); */
+   /* background-color: rgb(255, 255, 255); */
+   border-radius: 20px;
+   background-image: url("../img/Group 3192 (2).png");
+   /* background-color: rgba(255, 255, 255, 0.5);padding: 0vh 5vw; */
+   /* min-height: 141vh; */
+   /* min-width: 2100px; */
+   /* min-width: px; */
+   background-size: cover;
+   /* background-position: center; */
+   /* background-attachment: fixed; */
+   /* background-repeat: ; */
+   display: flex;
+   /* margin: 50px;
+      padding: 20px;
+      
+       */
+
+
+}
+
+#homeIMG {
+   /* width: 50px; */
+   height: 25px;
+   vertical-align: -5px;
+}
+
+#home h1 {
+   font-weight: 700;
+}
+
+#home p {
+   max-width: 550px;
+   margin: 18px auto;
+}
+
+.btn {
+   font-weight: 700;
+   font-size: 12px;
+   text-transform: uppercase;
+   padding: 12px 28px;
+   border-radius: 0;
+}
+
+.btn-brand {
+   background-color: #E93B81;
+   color: #fff;
+}
+
+.btn-brand:hover {
+   background-color: #ce2f6e;
+   color: #fff;
+}
+
+.section-intro {
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+.section-intro .hline {
+   width: 120px;
+   height: 2px;
+   background-color: rgba(0, 0, 0, 0.1);
+   margin: 16px auto 0 auto;
+}
+
+.icon-box {
+   width: 60px;
+   height: 60px;
+   background-color: #E93B81;
+   color: #fff;
+   border-radius: 4px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 32px;
+   flex: none;
+}
+
+.portfolio-item {
+   overflow: hidden;
+   position: relative;
+}
+
+.portfolio-item img,
+.portfolio-item .portfolio-overlay {
+   transition: all 0.4s ease;
+}
+
+.portfolio-overlay {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(17, 36, 90, 0.9);
+   display: flex;
+   align-items: flex-end;
+   padding: 30px;
+   opacity: 0;
+}
+
+.portfolio-overlay h3,
+.portfolio-overlay h6 {
+   color: #fff;
+}
+
+.portfolio-item:hover .portfolio-overlay {
+   opacity: 1;
+}
+
+.portfolio-item:hover img {
+   transform: scale(1.1);
+}
+
+
+.feature .icon-box {
+   width: 34px;
+   height: 34px;
+   border-radius: 100px;
+   font-size: 24px;
+}
+
+/* img#slideimg {
+   animation: spin 7s linear infinite;
+
+} */
+
+/* @keyframes spin {
+   from {
+      transform: rotate(0deg);
+   }
+
+   to {
+      transform: rotate(360deg);
+   }
+} */
+
+.team-member {
+   background-color: #11245A;
+}
+
+.team-member.even {
+   background-color: #162e6e;
+}
+
+.team-member .hline {
+   width: 70px;
+   height: 2px;
+   margin: 16px auto;
+   background-color: rgba(255, 255, 255, 0.445);
+}
+
+.team-member .team-member-img img,
+.team-member .team-member-img .social-icons {
+   transition: all 0.4s ease;
+}
+
+.team-member .team-member-img {
+   position: relative;
+   overflow: hidden;
+}
+
+.team-member .team-member-img .social-icons {
+   width: 100%;
+   height: 60px;
+   background-color: #E93B81;
+   position: absolute;
+   bottom: -60px;
+   left: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+
+.team-member .team-member-img .social-icons a {
+   width: 40px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid rgba(255, 255, 255, 0.5);
+   font-size: 24px;
+   color: #fff;
+   border-radius: 100px;
+   margin-left: 4px;
+   margin-right: 4px;
+}
+
+.team-member .team-member-img .social-icons a:hover {
+   background-color: #fff;
+   color: #E93B81;
+}
+
+.team-member:hover .team-member-img .social-icons {
+   bottom: 0;
+}
+
+.team-member:hover img {
+   transform: translateY(-60px);
+}
+
+
+#testimonials img {
+   width: 65px;
+   height: 65px;
+   border-radius: 100px;
+   transition: all 0.4s ease;
+}
+
+#testimonials .nav-pills .nav-link.active {
+   background-color: transparent;
+}
+
+#testimonials .nav-pills .nav-link.active img {
+   transform: scale(1.3);
+}
+
+.review .stars {
+   color: #E93B81;
+}
+
+.review p {
+   max-width: 720px;
+   margin: 24px auto;
+   font-style: italic;
+}
+
+
+#clients img {
+   height: 35px;
+}
+
+form .form-control {
+   border-radius: 0;
+}
+
+form .form-control:focus {
+   box-shadow: none;
+   border-color: #E93B81;
+}
+
+#cta {
+   background-color: #E93B81;
+}
+
+
+.footer-top {
+   padding-top: 80px;
+   padding-bottom: 30px;
+}
+
+.footer-bottom {
+   padding-top: 30px;
+   padding-bottom: 30px;
+   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .footer-links a,
+footer .social-icons a {
+   color: #898fa1;
+}
+
+footer .social-icons a {
+   font-size: 24px;
+}
+
+footer .footer-links a {
+   display: block;
+   font-weight: 400;
+}
+
+footer .social-icons a:hover,
+footer .footer-links a:hover {
+   color: #E93B81;
+}
+
+h1#title {
+   font-size: 80px;
+   color: black;
+}
+
+img#slideimg {
+   height: 230px;
+   width: 230px;
+   margin-left: -80px;
+
+}
+
+h1#subscriptiontitle {
+   font-size: 80px;
+   position: absolute;
+   top: 0;
+   left:280px;
+   
+}
+
+h1#introduction {
+   display: inline-block;
+   font-weight:lighter;
+   font-size: 19px;
+   position: absolute;
+   top: 110px;
+   left:280px;
+   
+}
+h1#foodDescription {
+   display: inline-block;
+   font-weight:lighter;
+   font-size: 19px;
+   position:absolute;
+   top: 280px;
+   left:280px;
+   /* transform: translateX(-50%); */
+}
+
+h5#item-price{
+   text-transform: none;
+   display: inline-block;
+   font-weight:lighter;
+   font-size: 19px;
+   position: absolute;
+   top: 350px;
+   left:280px;
+   
+
+}
+
+h1#undertitle {
+   font-size: 40px;
+   color: black;
+   
+}
+
+
+button#Subscribe {
+   font-size: 20px;
+   border-radius: 30px;
+   width: 50%;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(0, 113, 109);
+
+}
+
+div#onlypadding {
+   display: flex;
+   padding: 0px 100px;
+}
+
+img#cheffimg {
+   height: 300px;
+   width: 300px;
+}
+img#Subscriptionimg{
+      width: 450px;
+      height: 300px;
+      position: relative;
+   }
+div#cheffAndSlidePadding {
+   min-width: 0vh;
+   min-height: 0vh;
+   padding: 0px 0px 0px 70px;
+}
+
+p#MySalad {
+   font-size: 2rem;
+   color: black;
+}
+
+@media (max-width:1231px) {
+
+   h1#title {
+      font-size: 40px;
+   }
+
+   h1#undertitle {
+      font-size: 30px;
+   }
+
+   img#slideimg {
+      height: 200px;
+      width: 200px;
+   }
+
+   h1#subscriptiontitle {
+      font-size: 40px;
+   }
+
+   h1#foodDescription {
+      font-size: 20px;
+   }
+
+   div#onlypadding {
+      padding: 0px 10px;
+   }
+
+}
+
+@media (max-width:955px) {
+
+   h1#title {
+      font-size: 30px;
+   }
+
+   h1#undertitle {
+      font-size: 25px;
+   }
+
+   img#slideimg {
+      height: 150px;
+      width: 150px;
+   }
+
+   h1#subscriptiontitle {
+      font-size: 35px;
+   }
+
+   h1#foodDescription {
+      font-size: 15px;
+   }
+
+   button#ordernoe {
+      font-size: 12px;
+
+   }
+
+   div#onlypadding {
+      display: flex;
+      padding: 0px 10px;
+   }
+
+}
+
+@media (max-width:815px) {
+   nav#menuBar {
+      padding: 5px
+   }
+
+   .containerrr {
+      display: none;
+   }
+
+   h1#title {
+      font-size: 30px;
+   }
+
+   h1#undertitle {
+      font-size: 25px;
+   }
+
+   h1#subscriptiontitle {
+      font-size: 20px;
+   }
+
+   h1#foodDescription {
+      font-size: 13px;
+   }
+
+   img#cheffimg {
+      height: 200px;
+      width: 200px;
+   }
+   img#Subscriptionimg{
+      height: 100%;
+      width: 100%;
+ 
+   }
+
+   div#cheffAndSlidePadding {
+      padding: 0px 0px 0px 20px;
+   }
+
+   nav#menuBar {
+      min-width: 10px;
+
+   }
+
+   label#bartext {
+      font-size: 20px;
+   }
+
+   p#MySalad {
+      font-size: 0px;
+      font-weight: bold;
+   }
+
+   span#bartext {
+      display: block;
+   }
+
+
+}
+
+@media (max-width:555px) {
+   button#ordernow {
+      font-size: 10px;
+
+   }
+
+   h1#title {
+      text-align: center;
+      font-size: 12px;
+   }
+
+   h1#undertitle {
+      text-align: center;
+      font-size: 8px;
+   }
+
+   h1#subscriptiontitle {
+      font-size: 11px;
+   }
+
+   /* h1#foodDescription{
+            font-size: 1px;
+         } */
+   img#cheffimg {
+      display: block;
+      margin: 0 auto;
+      height: 100px;
+      width: 100px;
+   }
+   img#Subscriptionimg{
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      height:100%;
+      
+   }
+
+   img#slideimg {
+      height: 100px;
+      width: 100px;
+   }
+
+   div#cheffAndSlidePadding {
+      padding: 0px 0px 0px 20px;
+   }
+
+   nav#menuBar {
+      min-width: 100%;
+
+   }
+
+   label#bartext {
+      font-size: 13px;
+   }
+
+   p#MySalad {
+      font-size: 0px;
+      font-weight: bold;
+   }
+
+   span#bartext {
+      display: block;
+   }
+
+   div#title {
+      display: block;
+   }
+
+   /* span#bartext{
+               transform: scale(0.7);
+            } */
+   .containerrr {
+      display: none;
+   }
+
+   div#onlypadding {
+      display: block;
+   }
+
+   div#title {
+
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
+
+   }
+
+
+   div#home222 {
+      flex-direction: column;
+   }
+
+   /* img#cheffimg{
+               height: 40vh;
+               width: 40vh;
+            } */
+   div#cheffAndSlidePadding {
+
+      padding: 10px;
+      order: 1;
+
+   }
+
+   nav#menuBar {
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
+      order: 2;
+   }
+
+
+   /* button#ordernow{
+               transform: scale(0.7);
+
+               font-size:3px ;
+            
+            } */
+   h1#subscriptiontitle {
+      font-size: 15px;
+   }
+
+   /* img#cheffimg{
+               margin: 0px -30px;
+               height: 80px; width: 80px;
+            } */
+   img#slideimg {
+      height: 60px;
+      width: 60px;
+   }
+
+
+
+}
+
+@media (max-width:280px) {
+
+   img#cheffimg {
+      margin: 0px -30px;
+      height: 80px;
+      width: 80px;
+   }
+   img#Subscriptionimg{
+      margin: 0px -30px;
+      height: 10px;
+      width: 10px;
+   }
+
+   img#slideimg {
+      height: 60px;
+      width: 60px;
+   }
+
+   /* h1#foodDescription{
+               font-size: 1px;
+            } */
+
+}
+
+
+ 
+ 

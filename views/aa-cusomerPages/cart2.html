@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/boxicons.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/cartStyle.css">
+
+    <title>Cart</title>
+    <style>
+        .c-item {
+            height: 480px;
+        }
+
+        .c-img {
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(0.6);
+        }
+    </style>
+
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <header>
+
+        <nav class="navbar stick-top navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <a style="text-transform: none;" class="navbar-brand logo-text" href="#">MySalad</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="/customer/home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/customer/Services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/customer/Report">Reports</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/customer/aboutus">About us</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                   <a class="nav-link" href="#features">Features</a>
+                 </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="/customer/team">Team</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="./home_employee.html">employee page</a>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- green bacground -->
+    <section id="home">
+        <!-- wight contenar -->
+        <div id="home22">
+            <!-- wight contenar2 -->
+            <div id="home222">
+                <!-- menu bar -->
+                <nav id="menuBar">
+                    <P id="MySalad">MySalad</P>
+                    <!-- <img src="../img/backgroudnd1111.png" > -->
+                    <!-- home img -->
+                    <label id="bartext" style="display: block; padding: 0px 0px 10px 0px;">
+                        <input id="homeIMG" type="image" src="../img/homeIMG.png" alt="Submit"
+                            onclick="location.href='/customer/home'">
+                        <span id="bartext" style="margin-left: 5px; margin-bottom: 1px;">Home</span>
+                    </label>
+
+                    <label id="bartext" style="display: block; padding: 0px 0px 10px 0px;">
+                        <input id="homeIMG" type="image" src="../img/Profile.png" alt="Submit"
+                            onclick="location.href='/customer/Profile'">
+                        <span id="bartext" style="margin-left: 5px; margin-bottom: 1px;">Profile</span>
+                    </label>
+
+                    <label id="bartext" style="display: block; padding: 0px 0px 10px 0px;">
+                        <input id="homeIMG" type="image" src="../img/Recipes.png" alt="Submit"
+                            onclick="location.href='Recipes1page'">
+                        <span id="bartext" style="margin-left: 5px; margin-bottom: 1px;">Recipes</span>
+                    </label>
+
+                    <label id="bartext"
+                        style="display: block; padding: 0px 0px 10px 0px; border-radius: 10px; background-color: rgba(41, 121, 82, 0.445);">
+                        <input id="homeIMG" type="image" src="../img/cart.png" alt="Submit"
+                            onclick="location.href=' /customer/orders'">
+                        <span id="bartext" style="margin-left: 5px; margin-bottom: 1px;">cart</span>
+                    </label>
+                    <label id="bartext" style="display: block; padding: 0px 0px 10px 0px;">
+                        <input id="homeIMG" type="image" src="../img/Subscription.png" alt="Submit"
+                            onclick="location.href='/customer/subscription'">
+                        <span id="bartext" style="margin-left: 5px; margin-bottom: 1px;">Subsc</span>
+                    </label>
+
+                    <label id="bartext" style="display: block; padding: 0px 0px 10px 0px; border-radius: 10px;">
+                        <input id="homeIMG" type="image" src="../img/history.png" alt="Submit"
+                            onclick="location.href='/customer/MySubscription'">
+                        <span id="bartext" style="margin-left: 5px; margin-bottom: 1px;">MySubsc</span>
+                    </label>
+
+                    <!-- <label id="bartext" style="display: block; padding: 0px 0px 10px 0px;">
+                        <input id="homeIMG" type="image" src="../img/Subscription.png" alt="Submit"
+                            onclick="location.href='Subsc.html'">
+                        <span id="bartext" style="margin-left: 5px; margin-bottom: 1px;">Subsc</span>
+                    </label> -->
+
+                    <!-- <label id="bartext" style="display: block; padding: 0px 0px 10px 0px;">
+              <input id="homeIMG" type="image" src="../img/Contact us.png" alt="Submit" onclick="location.href=''">
+              <span id="bartext"  style="margin-left: 5px; margin-bottom: 1px;">Contact us</span>
+           </label> -->
+
+                    <label id="bartext" style="display: block; padding: 0px 0px 100px 0px;">
+                        <input id="homeIMG" type="image" src="../img/Sign inSign up.png" alt="Submit"
+                            onclick="location.href='/Login'">
+                        <span id="bartext" style="margin-left: 5px; margin-bottom: 1px;">Log out</span>
+                    </label>
+
+
+                    <div class="containerrr">
+                        <img src="../img/Group 3185.png" alt="Snow" style="width:100%;">
+                        <div class="top-left">MasterClass</div>
+                        <div class="by">by</div>
+                        <div class="top-right">SWE363 team</div>
+                        <div class="centered">11th September 21 <br>5:30 PM</div>
+
+                        <div class="bottom-left">Book Now</div>
+                    </div>
+
+                    <!-- <img src="../img/Group 3185.png" > -->
+                </nav>
+
+                <div id="cheffAndSlidePadding" style="width: 100%;">
+                    <div class="CheckOut" style="justify-content: space-between; align-items: center;">
+
+                        {% block content %}
+                        {% for item in rows %}
+
+                        <div class="item-1">
+
+                            <img class="item-img" src="{{item.Url}}" alt="">
+                            <h3 class="item-name">{{item.title}}</h3>
+                            <h5 class="item-price">{{item.prais}}
+                                <form action="/deletorder" method="POST">
+                                    <input style="display: none;" type="text" name="orderNo" required
+                                        value="{{item.orderNo}}">
+
+                                    <button type="submit" id="ordernow"
+                                        style="background-color: rgb(21, 70, 70); grid-column: 5;"
+                                        class="btn btn-primary px-4 py-2 mt-5"
+                                        onclick="if (confirm('Are you sure you want to remove the salad?')) { document.getElementById('myform').submit(); return true; } else { return false; }">remove</button>
+                                </form>
+                            </h5>
+                            <hr class="Divider">
+                        </div>
+
+                        <!-- <br><hr> -->
+                        {% endfor %}
+                        {% endblock %}
+
+
+                        <!--<div class="item-2">
+                 <img class="item-img" src="img/MaskGroup(1).png" alt="">
+                 <h3 class="item-name">Greek Salads</h3>
+                 <h5 class="item-price">30 SR</h5>
+                 <hr class="Divider">
+               </div>
+               <div class="item-3">
+                 <img class="item-img" src="img/MaskGroup(2).png" alt="">
+                 <h3 class="item-name">Greek Salads</h3>
+                 <h5 class="item-price">35 SR</h5>
+                 <hr class="Divider">
+               </div>
+               <div class="item-4">
+                 <img class="item-img" src="img/MaskGroup3nnnnn.png" alt="">
+                 <h3 class="item-name">Greek Salads</h3>
+                 <h5 class="item-price">35 SR</h5>
+                 <hr class="Divider">
+               </div> -->
+
+                        <!-- Add more items here -->
+
+                        <div class="Total">
+                            <!-- <h1 class="">Total</h1> -->
+                            <!-- <h5 class="Price">140 SR</h5> -->
+                            <!-- <button id="ordernow" style="background-color: rgb(21, 70, 70); grid-column: 5;"
+                                class="btn btn-primary px-4 py-2 mt-5">Check Out</button> -->
+                            <form action="/deleteCompletedOrder" method="POST">
+                                <input style="display: none;" type="text" name="customerNo" id="savedInput"
+                                    class="savedInput" value="" required value="{{item.customerNo}}">
+
+                                <button type="submit" id="ordernow"
+                                    style="background-color: rgb(21, 70, 70); grid-column: 5;"
+                                    class="btn btn-primary px-4 py-2 mt-5"
+                                    onclick="if (confirm('Are you sure you want to check out?')) { document.getElementById('myform').submit(); return true; } else { return false; }">Check
+                                    Out</button>
+                            </form>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+    <!-- <div id="image-container"></div>
+    <button onclick="clearData()">Clear Data</button>
+    <script>
+        function createImageRows() {
+            var storedData = localStorage.getItem("data");
+            var imageContainer = document.getElementById("image-container");
+            if (storedData) {
+                var lines = storedData.split("\n");
+                for (var i = 0; i < lines.length; i++) {
+                    var row = document.createElement("div");
+                    row.className = "row";
+                    var row = document.createElement("div");
+
+                    var parts = lines[i].split("|"); // Split the stored data into image source, h1 text, and h2 text using the separator "|"
+                    var img = document.createElement("img");
+                    img.src = parts[0]; // Get the image source from the parts array
+                    row.appendChild(img);
+                    var h1 = document.createElement("h1");
+                    h1.innerText = parts[1]; // Get the h1 text from the parts array
+                    row.appendChild(h1);
+                    var h2 = document.createElement("h2");
+                    h2.innerText = parts[2]; // Get the h2 text from the parts array
+                    row.appendChild(h2);
+                    imageContainer.appendChild(row);
+                }
+            } else {
+                imageContainer.innerHTML = "No data available.";
+            }
+        }
+
+        function clearData() {
+            localStorage.removeItem("data");
+            var imageContainer = document.getElementById("image-container");
+            imageContainer.innerHTML = "No data available.";
+        }
+
+        createImageRows();
+    </script> -->
+
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-5">
+                    <div class="col-md-4">
+                        <h4 style="text-transform: none;" class="logo-text">MySalad</h4>
+                        <p>MySalad is a local shop for salads where you can show your inner chef and create your own
+                            salads.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="bx bxl-facebook"></i></a>
+                            <a href="#"><i class="bx bxl-twitter"></i></a>
+                            <a href="#"><i class="bx bxl-instagram"></i></a>
+                            <a href="#"><i class="bx bxl-github"></i></a>
+                        </div>
+                    </div>
+                    <!-- <div class="col-md-2">
+                    <h5 class="title-sm">Navigation</h5>
+                    <div class="footer-links">
+                       <a href="#">Services</a>
+                       <a href="#">Our Work</a>
+                       <a href="#">Team</a>
+                       <a href="#">Blog</a>
+                    </div>
+                 </div>
+                 <div class="col-md-2">
+                    <h5 class="title-sm">More</h5>
+                    <div class="footer-links">
+                       <a href="#">FAQ's</a>
+                       <a href="#">Privacy & Policy</a>
+                       <a href="#">Liscences</a>
+                    </div>
+                 </div> -->
+                    <div class="col-md-2">
+                        <h5 class="title-sm">Contact</h5>
+                        <div class="footer-links">
+                            <p class="mb">KFUPM B22, Dahran, R2011</p>
+                            <p class="mb-">0138604444</p>
+                            <p class="mb">SWE363team@kfupm.edu.sa</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row justify-content-between gy-3">
+                    <div class="col-md-6">
+                        <p class="mb-0">© Agency2023. All rights reserved</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0">Created with ❤️ by Ali</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="/js/commman.js"></script>
+
+</body>
+
+</html>
